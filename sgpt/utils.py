@@ -15,6 +15,7 @@ class ModelOptions(str, Enum):
     https://platform.openai.com/docs/models/model-endpoint-compatibility
     """
 
+    GPT4NEW = "gpt-4-0613"
     GPT4 = "gpt-4"
     GPT432k = "gpt-4-32k"
     GPT35TURBO = "gpt-3.5-turbo"
